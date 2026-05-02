@@ -1,0 +1,23 @@
+//dates
+let mydate=new Date()
+console.log(mydate.toString())
+console.log(mydate.toDateString())
+console.log(mydate.toLocaleString())
+console.log(mydate.toISOString())
+//let mycreateddate=new Date(2026,0,2,5,3)
+//let mycreateddate=new Date("2026-01-14")
+let mycreateddate=new Date("01-2-2026")
+console.log(mycreateddate.toLocaleString())
+
+let s=mydate.toString()
+console.log(typeof s)
+let mytimestamp=Date.now()
+console.log(mytimestamp)
+console.log(typeof mytimestamp)
+console.log(mycreateddate.getTime())
+console.log(Math.floor(Date.now()/1000))
+
+let newdate=new Date()
+console.log(newdate.getDay())
+console.log(newdate.getMonth())
+
