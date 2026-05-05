@@ -17,6 +17,26 @@ function addtwonumbers(num1,num2){
         return num1 + num2
  }
 const result=addtwonumbers(3,5)
-console.log(result)
+//console.log(result)
+
+
+function loginusermessage(username){ //used by passing value
+    if(username===undefined){
+        console.log("Please enter a user name")
+        return
+    }
+    return `${username} just logged in `
+}
+//const s=loginusermessage("Ayan")
+//console.log(loginusermessage("Ayan"))
+console.log(loginusermessage())
+function loggin(username="Ayan"){ //use default value
+    if(!username){
+        console.log("please enter the name")
+        return
+    }
+    return `${username} just logged in`
+}
+console.log(loggin())
 
 
