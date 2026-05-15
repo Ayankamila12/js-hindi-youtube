@@ -33,13 +33,23 @@
 // }
 
 //break and continue  keyword
-n=10
-for (let index = 0; index <n; index++) {
-    let element =index;
-    if(element == 7){
-        console.log("The break statement is executed")
-        break
+
+let n=10
+// for (let index = 0; index <n; index++) {
+//     let element =index;
+//     if(element == 7){
+//         console.log("The break statement is executed")
+//         break
+//     }
+//     console.log(element)
+    
+// }
+for (let index = 0; index < n; index++) {
+    
+    let element=index
+    if(element===5){
+        console.log(`${element} is detected`)
+        continue
     }
     console.log(element)
-    
 }
